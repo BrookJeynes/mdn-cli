@@ -10,7 +10,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-var version string = "mdn v0.1.0\n"
+var version string = "mdn v0.1.1\n"
 var help_menu string = `Usage: mdn [search-terms]
 
 search mdn docs from the terminal
