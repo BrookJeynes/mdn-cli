@@ -68,7 +68,7 @@ func main() {
 				continue
 			}
 
-			if attr.Val != main_content_class {
+			if strings.TrimSpace(attr.Val) != main_content_class {
 				continue
 			}
 
