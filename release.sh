@@ -7,6 +7,6 @@ for a in ${arch[@]}
 do
     for o in ${os[@]}
     do
-        env GOOS=${o} GOARCH=${a} go build -o build/mdn_${a}-${o}
+        env GOOS=${o} GOARCH=${a} go build -o build/mdn_${a}-${o} -ldflags="-s -w"
     done
 done
